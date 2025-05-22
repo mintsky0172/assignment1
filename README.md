@@ -18,7 +18,8 @@
 - git add <파일> : 변경 파일을 스테이지 영역에 추가
 - git add . : 모든 변경 파일을 스테이지에 추가
 - git commit -m "커밋 메시지" : 스테이지에 있는 변경사항 커밋
-  ※ git commit : 커밋 메시지 입력창이 자동으로 뜸. 입력 후 저장하고 닫으면 됨
+
+※ git commit : 커밋 메시지 입력창이 자동으로 뜸. 입력 후 저장하고 닫으면 됨
 
 ### 🔄 버전 이동 & 기록 보기
 
@@ -35,7 +36,7 @@
 - git branch -D <이름> : 브랜치 삭제
 
 ### ☁️ 원격 저장소
-
+* 원격 저장소에 업로드하기 전 반드시 github에 접속하여 새 repository 생성해야 함
+- git remote add origin <repository 주소> : 현재 프로젝트를 원격 저장소와 연결
 - git remote -v : 원격 저장소 목록 확인
-- git push :커밋을 원격 저장소에 업로드
-- git push origin <브랜치> : 특정 브랜치 푸시
+- git push origin <브랜치> : 원격 저장소의 특정 브랜치에 업로드
