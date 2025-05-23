@@ -32,6 +32,7 @@
 - git branch : 현재 브랜치 목록 확인
 - git branch <이름> : 새 브랜치 생성
 - git checkout -b <이름> : 브랜치 생성 + 이동
+- git switch -c <브랜치> : 브랜치 이동(최신 문법)
 - git merge <브랜치> : 현재 브랜치에 다른 브랜치 병합
 - git branch -D <이름> : 브랜치 삭제
 
