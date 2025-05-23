@@ -41,6 +41,7 @@
 ### ☁️ 원격 저장소
 ※ 원격 저장소에 업로드하기 전 반드시 github에 접속하여 새 repository 생성해야 함
 - git remote add origin <repository 주소> : 현재 프로젝트를 원격 저장소와 연결 (꼭 origin일 필요는 없음 ; upstream, team ...)
+  
 ex) git remote add origin https://github.com/mintsky0172/assignment1.git
 - git remote -v : 원격 저장소 목록 확인
 - git remote remove <저장소 이름> : 원격 저장소 삭제
