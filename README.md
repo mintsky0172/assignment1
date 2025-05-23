@@ -31,6 +31,8 @@
 
 - git branch : 현재 브랜치 목록 확인
 - git branch <이름> : 새 브랜치 생성
+- git branch -m <이름> : 브랜치 이름 변경
+- git branch -M <이름> : 브랜치 이름 강제 변경
 - git checkout -b <이름> : 브랜치 생성 + 이동
 - git switch -c <브랜치> : 브랜치 이동(최신 문법)
 - git merge <브랜치> : 현재 브랜치에 다른 브랜치 병합
@@ -38,6 +40,9 @@
 
 ### ☁️ 원격 저장소
 ※ 원격 저장소에 업로드하기 전 반드시 github에 접속하여 새 repository 생성해야 함
-- git remote add origin <repository 주소> : 현재 프로젝트를 원격 저장소와 연결
+- git remote add origin <repository 주소> : 현재 프로젝트를 원격 저장소와 연결 (꼭 origin일 필요는 없음 ; upstream, team ...)
+ex) git remote add origin https://github.com/mintsky0172/assignment1.git
 - git remote -v : 원격 저장소 목록 확인
+- git remote remove <저장소 이름> : 원격 저장소 삭제
 - git push origin <브랜치> : 원격 저장소의 특정 브랜치에 업로드
+
